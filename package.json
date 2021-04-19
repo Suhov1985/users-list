@@ -1,0 +1,32 @@
+{
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "coffee-loader": "^2.0.0",
+    "coffeescript": "^2.5.1",
+    "css-loader": "^5.2.2",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.32.10",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "backbone": "^1.4.0",
+    "bootstrap": "^4.6.0",
+    "html-webpack-hot-plugin": "^1.2.2",
+    "jquery": "^3.6.0",
+    "underscore": "^1.13.1"
+  }
+}

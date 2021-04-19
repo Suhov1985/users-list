@@ -1,0 +1,53 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+body {
+  background: #d2d2d2;
+  padding: 0;
+  margin: 0;
+  color: #000;
+}
+#big {
+  background: #fff;
+}
+#small {
+  background: #fff;
+  margin-top: 20px;
+}
+.red {
+  fill: red;
+}
+.blue {
+  fill: blue;
+}
+.green {
+  fill: green;
+}
+.yellow {
+  fill: yellow;
+}
+.black {
+  fill: black;
+}
+#users {
+  margin-top: 50px;
+}
+.list-group {
+  margin-bottom: 50px;
+}
+.list-group-item {
+  .form-control {
+    display: inline-flex;
+  }
+}
+.input-wrap {
+  position: relative;
+  padding-bottom: 25px;
+}
+.error-text {
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+  font-size: 12px;
+  color: red;
+  display: none;
+}
